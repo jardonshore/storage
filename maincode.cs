@@ -11,7 +11,7 @@
 
         public static UsableType[] AmalgamateUsableTypes (UsableType[] usableTypeArray, params UsableType[] usableTypes)
         {
-            List<UsableType> usableTypeList = new List<UsableType> ();
+            List<UsableType> usableTypeList = new List<UsableType> ();//good
             for (int i = 0; i < usableTypes.Length; i++)
             {
                 usableTypeList.Add (usableTypes[i]);
